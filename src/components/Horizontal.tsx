@@ -4,9 +4,9 @@ import HorizontalScroll from "react-scroll-horizontal";
 const Horizontal = () => {
     return (
         <>
-            <HorizontalScroll  reverseScroll = { true }>       
-                <div  className="flex">
-                    <div className="w-[100vw] h-[100vh] bg-black   duration-500 ease-in-out">
+            <HorizontalScroll  reverseScroll = { true } >       
+                <div  className="flex ">
+                    <div className="w-[100vw] h-[200vh] bg-black   duration-500 ease-in-out">
                         <div className=" font-Inter font-bold " >
                             <div className=" text-transparent bg-clip-text bg-gradient-to-r from-babe to-tsuma absolute text-[10rem]  ml-[15rem] -rotate-90 mt-[33rem]">
                                 SEND
@@ -30,7 +30,7 @@ const Horizontal = () => {
                     </div>
                     <div className=" w-[250vw] h-[100vh] dark:bg-black">
                         <div className=" flex">
-                            <img src="/images/phone.png"className="pt-[15vh] -ml-[9vw]" />
+                            <img src="/images/hero_phone.png"className="pt-[0vh] -ml-[9vw]" />
                             <div className="pl-[10vw] dark:text-white flex flex-col text-[10rem] font-medium font-Montserrat">
                                 <div>Send Crypto</div>
                                 <div>to Friends &</div>

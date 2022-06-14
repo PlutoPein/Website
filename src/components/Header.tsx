@@ -10,20 +10,19 @@ const Header = () => {
     console.log(colorMode)
     
     return(
-        <div className="fixed bg-transparent w-full overflow-hidden font-Montserrat py-8 duration-500  z-50 "> 
-            <div className='flex justify-between'>
+        <div className=" bg-transparent w-full overflow-hidden font-Montserrat  duration-500  z-50 "> 
+            <div className='flex justify-between items-center'>
                 <div className=' md:mt-1 px-10 flex'>
-                    <span className=' text-2xl text-black dark:text-white duration-500 ease-in-out font-bold'> PLUTOPE</span>
+                    <span className=' text-2xl  duration-500 ease-in-out font-bold'> 
+                        <img src="/images/logo.png" className="invert-1 dark:invert duration-500 ease-in-out "/>
+                    </span>
                 </div>
                 <div className='flex gap-4 mt-2'>
-                    <a href="/" className=' text-xs md:text-sm text-black dark:text-white duration-500 ease-in-out'>ABOUT US</a>
-                    <a href="/" className=' text-xs md:text-sm text-black dark:text-white duration-500 ease-in-out'>EXPLORE</a>
-                    <a href="/" className=' text-xs md:text-sm text-black dark:text-white duration-500 ease-in-out'>CONTACT US</a>
+                    <a href="/" className=' text-xs md:text-sm text-black dark:text-white duration-500 ease-in-out'>Cards</a>
+                    <a href="/" className=' text-xs md:text-sm text-black dark:text-white duration-500 ease-in-out'>Our Token</a>
+                    <a href="/" className=' text-xs md:text-sm text-black dark:text-white duration-500 ease-in-out'>Team</a>
                 </div>
                 <div className='flex px-10 gap-10'>
-                    <div className='  text-sm outline outline-2 py-2 px-8 dark:text-white duration-500 ease-in-out'>
-                        SIGNUP
-                    </div>
                     <button onClick={() => {
                         setColorMode(colorMode === ColorMode.dark ? ColorMode.light : ColorMode.dark)
                         }}>{colorMode === ColorMode.dark ? '' : ''}

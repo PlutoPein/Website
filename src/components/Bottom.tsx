@@ -26,11 +26,11 @@ const Bottom = () => {
                             <div> waitlist and get regular updates.</div>
                         </div>
                         <div className="flex  pt-10 space-x-10 ">
-                            <div className="font-Montserrat text-xl font-bold flex items-center pl-3 border w-[24rem] h-[4rem] rounded-xl text-white  bg-[#E9E9E9] bg-opacity-40">
+                            <div className="font-Montserrat text-xl font-bold flex items-center pl-5 pr-[20vh] border w-[24rem] h-[4rem] rounded-xl text-white  bg-[#E9E9E9] bg-opacity-40">
                                 Your Email
                             </div>
                             <div className=" bg-black text-white flex justify-center items-center text-xl font-bold w-[13rem] rounded-xl">
-                                Preorder
+                                Join The Waitlist
                             </div>
                         </div>
                     
