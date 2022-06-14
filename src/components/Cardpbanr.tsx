@@ -1,4 +1,4 @@
-const OneApp = () => {
+const Cardpbanr = () => {
     return (
         <div className=" pt-[20vh] bg-white dark:bg-black  duration-500 ease-in-out">
             <div className="invert-0 dark:invert  duration-500 ease-in-out flex justify-around">
@@ -23,7 +23,7 @@ const OneApp = () => {
 				<div className=" bg-black dark:invert duration-500 ease-in-out w-full box-border h-[10rem] p-4 flex items-center overflow-hidden ">
 					<div className="animate">
 						{
-							[0,1,2,3,4,5,6,7,8,9,10,11].map(() => (
+							[0,1,2,3,4,5,6,7,8,9,10,11].map((_i) => (
 								<div className="text-white whitespace-nowrap text-[3.75rem] font-bold font-Roboto inline-flex items-center justify-center">
 									• Exchange. Anytime. Anywhere at a lightning-fast speed because Time is money.&nbsp;&nbsp;&nbsp;
 								</div>
@@ -37,4 +37,4 @@ const OneApp = () => {
 }
 
 
-export default OneApp; 
+export default Cardpbanr; 

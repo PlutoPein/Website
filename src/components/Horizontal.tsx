@@ -1,7 +1,7 @@
 import HorizontalScroll from "react-scroll-horizontal";
 
 
-const OneApp = () => {
+const Horizontal = () => {
     return (
         <>
             <HorizontalScroll  reverseScroll = { true }>       
@@ -101,4 +101,4 @@ const OneApp = () => {
 }
     
     
-export default OneApp; 
+export default Horizontal; 

@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <div className=" cursor-none dark:bg-black scroll-smooth w-full h-full transition-colors duration-500">
-       <div className=" hidden  lg:block">
+      <div className=" hidden  lg:block">
         <CustomCursor/>
       </div>
       <Header/>

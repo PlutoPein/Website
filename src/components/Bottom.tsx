@@ -1,4 +1,4 @@
-const OneApp = () => {
+const Bottom = () => {
         return (
             <div>
                 <div className="bg-white dark:bg-black duration-500 ease-in-out flex pt-[10rem]">
@@ -41,4 +41,4 @@ const OneApp = () => {
 }
 
 
-export default OneApp; 
+export default Bottom; 
