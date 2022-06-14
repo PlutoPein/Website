@@ -1,6 +1,6 @@
 const OneApp = () => {
     return (
-        <div className=" pt-[10vh] bg-white dark:bg-black  duration-500 ease-in-out">
+        <div className=" pt-[20vh] bg-white dark:bg-black  duration-500 ease-in-out">
             <div className="invert-0 dark:invert  duration-500 ease-in-out flex justify-around">
 				<div className="bg-white  rounded-2xl w-[35rem] h-[33rem] drop-shadow-2xl border flex flex-col items-center ">
 					<div className="text-[3rem] font-Montserrat font-bold w-[30rem] text-center mt-[10%]">

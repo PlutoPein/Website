@@ -1,3 +1,5 @@
+import {motion} from 'framer-motion'
+
 const Bcypto = () => {
     return (
         <div className="bg-white dark:bg-black  duration-500 ease-in-out flex flex-col text-center item-center">
@@ -53,48 +55,48 @@ const Bcypto = () => {
 				<div className="pt-[10rem]  ">
 					<img src="/images/line.png" className="invert-0 dark:invert duration-500 ease-in-out "/>
 				</div>
-				<div className="-mt-20 ">
+				<motion.div initial={{opacity: 0}} whileInView={{opacity: 1}}  className="-mt-20 " >
 					
-					<div className="absolute ml-[0rem]   ">
+					<motion.div  animate={{  y: [-5, 5, -5]}} transition={{ duration: 2,   repeat: Infinity }}   className="absolute ml-[0rem]   ">
 						<img src="/images/btc.png" />	
-					</div>
-					<div className="absolute -mt-[11rem] ml-[12rem] ">
+					</motion.div>
+					<motion.div  animate={{  y: [10, -5, 10]}} transition={{ duration: 2,   repeat: Infinity }}  className="absolute -mt-[11rem] ml-[12rem] ">
 						<img src="/images/doge.png" />	
-					</div>
-					<div className="absolute -mt-[8rem] ml-[13rem] ">
+					</motion.div>
+					<div  className="absolute -mt-[8rem] ml-[13rem] ">
 						<img src="/images/card_1.png" />	
 					</div>
-					<div className="absolute mt-[6rem] ml-[25rem] ">
+					<motion.div animate={{  y: [-5, 5, -5]}} transition={{ duration: 2,   repeat: Infinity }} className="absolute mt-[6rem] ml-[25rem] ">
 						<img src="/images/coin_1.png" />	
-					</div>
-					<div className="absolute -mt-[14rem] ml-[40rem]">
+					</motion.div>
+					<motion.div animate={{  y: [0, -15, 0]}} transition={{ duration: 2,   repeat: Infinity }} className="absolute -mt-[14rem] ml-[40rem]">
 						<img src="/images/eth.png" />	
-					</div>
-					<div className="absolute -mt-[4rem] ml-[37rem]">
+					</motion.div>
+					<motion.div animate={{  y: [1, -5, 1]}} transition={{ duration: 2,   repeat: Infinity }} className="absolute -mt-[4rem] ml-[37rem]">
 						<img src="/images/usdt.png" />	
-					</div>
-					<div className="absolute mt-[7rem] ml-[55rem] ">
+					</motion.div>
+					<motion.div animate={{  y: [-1, -15, -1]}} transition={{ duration: 2,   repeat: Infinity }} className="absolute mt-[7rem] ml-[55rem] ">
 						<img src="/images/coin_2.png" />	
-					</div>
-					<div className="absolute -mt-[8rem] ml-[70rem] ">
+					</motion.div>
+					<motion.div animate={{  y: [-5, 5, -5]}} transition={{ duration: 2,   repeat: Infinity }} className="absolute -mt-[8rem] ml-[70rem] ">
 						<img src="/images/doge.png" />	
-					</div>
+					</motion.div>
 					<div className="absolute -mt-[10rem] ml-[55rem] ">
 						<img src="/images/card_2.png" />	
 					</div>
-					<div className="absolute mt-[5rem] ml-[77rem]  ">
+					<motion.div animate={{  y: [0, -5, 0]}}   transition={{ duration: 2,  repeat: Infinity   }} className="absolute mt-[5rem] ml-[77rem]  ">
 						<img src="/images/eth.png" />	
-					</div>
-					<div className="absolute -mt-[8rem] ml-[95rem] ">
+					</motion.div>
+					<motion.div animate={{  y: [-1, -15, -1]}} transition={{ duration: 2,   repeat: Infinity }} className="absolute -mt-[8rem] ml-[95rem] ">
 						<img src="/images/btc.png" />	
-					</div>
+					</motion.div>
 					<div className="absolute -mt-[7rem] ml-[85rem] ">
 						<img src="/images/card_3.png" />	
 					</div>
-					<div className="absolute ml-[105rem] mt-[5rem]  ">
+					<motion.div animate={{  y: [0, -10, 0]}} transition={{ duration: 2,   repeat: Infinity }} className="absolute ml-[105rem] mt-[5rem]  ">
 						<img src="/images/usdt.png" />	
-					</div>
-				</div>
+					</motion.div>
+				</motion.div>
 			</div>
         </div>
      );

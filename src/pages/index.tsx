@@ -23,6 +23,7 @@ export default function Home() {
       <Hero/>
       <OneApp/>
       <Horizontal/>
+
       <Laptop/>
       <Bcypto/>
       <Cardpbanr/>

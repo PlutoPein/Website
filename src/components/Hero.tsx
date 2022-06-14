@@ -1,3 +1,5 @@
+import {motion} from 'framer-motion';
+
 const Hero = () => {
     return (
         <>
@@ -20,8 +22,11 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-                <div >
-			        <img src="/images/p1.png"  className="w-[90%] mt-[5rem]"/>
+                <div className='' >
+                    <motion.div initial={{opacity:0}} animate={{opacity:1, scale:1.5}} transition={{duration:1}} className="absolute z-20  my-[17rem] mx-[3rem] ">
+				        <img  src="/images/main_card.png"  />
+			        </motion.div>
+			        <img src="/images/hero_phone.png"  className="w-[90%] mt-[5rem] "/>                    
 			    </div>
 			</div>
         </>
