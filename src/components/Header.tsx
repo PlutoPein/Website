@@ -12,12 +12,12 @@ const Header = () => {
     return(
         <div className=" bg-transparent w-full overflow-hidden font-Montserrat  duration-500  z-50 "> 
             <div className='flex justify-between items-center'>
-                <div className=' md:mt-1 px-10 flex'>
+                <div className='  px-10 flex'>
                     <span className=' text-2xl  duration-500 ease-in-out font-bold'> 
                         <img src="/images/logo.png" className="invert-1 dark:invert duration-500 ease-in-out "/>
                     </span>
                 </div>
-                <div className='flex gap-4 mt-2'>
+                <div className='flex lg:gap-4 mt-2'>
                     <a href="/" className=' text-xs md:text-sm text-black dark:text-white duration-500 ease-in-out'>Cards</a>
                     <a href="/" className=' text-xs md:text-sm text-black dark:text-white duration-500 ease-in-out'>Our Token</a>
                     <a href="/" className=' text-xs md:text-sm text-black dark:text-white duration-500 ease-in-out'>Team</a>

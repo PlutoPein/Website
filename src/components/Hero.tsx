@@ -5,7 +5,7 @@ const Hero = () => {
         <>
             <div className=" bg-white dark:bg-black  duration-500 ease-in-out px-[11vh] flex justify-between">
                 <div>
-                    <div className=" leading-none text-[4.5rem] z-50 text-black dark:text-white  duration-500 ease-in-out font-bold  pt-[23vh]">
+                    <div className=" leading-none lg:text-[4.5rem] md:text-[3rem] z-50 text-black dark:text-white  duration-500 ease-in-out font-bold  pt-[23vh]">
                         <div>Spend your crypto</div>
                         <div className="text-prp">anywhere in the world</div>
                         <div>with a Plutope Debit card.</div>
