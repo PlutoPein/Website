@@ -30,7 +30,7 @@ const Horizontal = () => {
                     </div>
                     <div className=" w-[250vw] h-[100vh] dark:bg-black">
                         <div className=" flex">
-                            <img src="images/phone.png"className="pt-[15vh] -ml-[9vw]" />
+                            <img src="/images/phone.png"className="pt-[15vh] -ml-[9vw]" />
                             <div className="pl-[10vw] dark:text-white flex flex-col text-[10rem] font-medium font-Montserrat">
                                 <div>Send Crypto</div>
                                 <div>to Friends &</div>
@@ -38,7 +38,7 @@ const Horizontal = () => {
                             </div>
                         </div>
                         <div className="ml-[70vw]">
-                            <img src="images/img6.png" className="-mt-[10vh]  w-[244px]"  />
+                            <img src="/images/c1.png" className="-mt-[10vh]  w-[244px]"  />
                         </div>
                         <div >
                             <div className="pl-[100vw] dark:text-white -mt-[40vh] flex flex-col text-[10rem] font-medium font-Montserrat">
@@ -47,7 +47,7 @@ const Horizontal = () => {
                             </div>
                         </div>
                         <div className="ml-[130vw]">
-                            <img src="images/img7.png" className="-mt-[90vh]  w-[244px]" />
+                            <img src="/images/c2.png" className="-mt-[90vh]  w-[244px]" />
                         </div>
                         <div >
                             <div className="pl-[170vw] dark:text-white -mt-[10vh]  text-[3rem] font-medium font-Montserrat">
@@ -55,7 +55,7 @@ const Horizontal = () => {
                             </div>
                         </div>
                         <div className="ml-[235vw]">
-                            <img src="images/img3.png" className="mt-[20vh]  w-[244px]" />
+                            <img src="images/c3.png" className="mt-[20vh]  w-[244px]" />
                         </div>
                     </div>
                     
@@ -68,7 +68,7 @@ const Horizontal = () => {
                                 <div className="text-black dark:text-white">O</div>
                                 <div className="text-white dark:text-black">R</div>
                             </div>
-                            <img src="images/scan_phone.png" className="pt-[0vh] w-[18%] ml-[45vw]" />
+                            <img src="/images/scan_phone.png" className="pt-[0vh] w-[18%] ml-[45vw]" />
                         </div>
                     </div>
                     <div className="w-[100vw] h-[100vh] flex flex-col justify-center items-center bg-black dark:bg-white">
