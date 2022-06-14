@@ -85,12 +85,12 @@ const Horizontal = () => {
                             <div className="text-white dark:text-black">O</div>
                             <div className="text-black dark:text-white">R</div>
                         </div>
-                        <div className="flex justify-center -mt-[45vh]">
+                        <div className="flex flex-col items-center justify-center -mt-[45vh]">
                             <div className="pl-[10vw] dark:text-white  leading-tight flex flex-col text-[10rem] font-medium font-Montserrat">
                                 <div>SCAN</div>
-                                <div>& GO</div>
-                              
+                                <div>& GO</div>  
                             </div>
+                            <img src="/images/scan.png" className="pt-[5vh] ml-[20vh] " />
                         </div>
                     </div>
                     
