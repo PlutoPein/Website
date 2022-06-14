@@ -8,13 +8,13 @@ const Horizontal = () => {
                 <div  className="flex ">
                     <div className="w-[100vw] h-[200vh] bg-black   duration-500 ease-in-out">
                         <div className=" font-Inter font-bold " >
-                            <div className=" text-transparent bg-clip-text bg-gradient-to-r from-babe to-tsuma absolute text-[10rem]  ml-[15rem] -rotate-90 mt-[33rem]">
+                            <div className=" text-down absolute text-[10rem]  ml-[15rem] -rotate-90 mt-[33rem]">
                                 SEND
                             </div>
                             <div className=" font-Montserrat text-white absolute text-[10rem] ml-[35rem] -rotate-90 mt-[26rem]">
                                 OR
                             </div>
-                            <div className=" text-transparent bg-clip-text bg-gradient-to-r from-babe to-tsuma  absolute text-[10rem] ml-[31.5rem] -rotate-90 mt-[17rem]">
+                            <div className=" text-down  absolute text-[10rem] ml-[31.5rem] -rotate-90 mt-[17rem]">
                                 RECIEVE
                             </div>
                             <div className="  text-white  absolute text-[7rem] ml-[53rem] -rotate-90 mt-[35rem]">
