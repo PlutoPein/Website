@@ -38,7 +38,7 @@ const Horizontal = () => {
                             </div>
                         </div>
                         <div className="ml-[70vw]">
-                            <img src="images/img6.png" className="-mt-[10vh]  w-[244px]" alt="" />
+                            <img src="images/img6.png" className="-mt-[10vh]  w-[244px]"  />
                         </div>
                         <div >
                             <div className="pl-[100vw] dark:text-white -mt-[40vh] flex flex-col text-[10rem] font-medium font-Montserrat">
@@ -47,7 +47,7 @@ const Horizontal = () => {
                             </div>
                         </div>
                         <div className="ml-[130vw]">
-                            <img src="images/img7.png" className="-mt-[90vh]  w-[244px]" alt="" />
+                            <img src="images/img7.png" className="-mt-[90vh]  w-[244px]" />
                         </div>
                         <div >
                             <div className="pl-[170vw] dark:text-white -mt-[10vh]  text-[3rem] font-medium font-Montserrat">
@@ -55,7 +55,7 @@ const Horizontal = () => {
                             </div>
                         </div>
                         <div className="ml-[235vw]">
-                            <img src="images/img3.png" className="mt-[20vh]  w-[244px]" alt="" />
+                            <img src="images/img3.png" className="mt-[20vh]  w-[244px]" />
                         </div>
                     </div>
                     
