@@ -1,9 +1,9 @@
 const Hero = () => {
     return (
         <>
-            <div className=" px-[11vh] flex">
+            <div className=" bg-white dark:bg-black  duration-500 ease-in-out px-[11vh] flex justify-between">
                 <div>
-                    <div className=" leading-none text-[4.5rem] z-50 text-black dark:text-white  duration-500 ease-in-out font-bold  pt-[30vh]">
+                    <div className=" leading-none text-[4.5rem] z-50 text-black dark:text-white  duration-500 ease-in-out font-bold  pt-[23vh]">
                         <div>Spend your crypto</div>
                         <div className="text-prp">anywhere in the world</div>
                         <div>with a Plutope Debit card.</div>
@@ -20,8 +20,8 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-                <div className="absolute ml-[80rem] ">
-			        <img src="/images/p1.png"  className="w-[90%] mt-[10rem]"/>
+                <div >
+			        <img src="/images/p1.png"  className="w-[90%] mt-[5rem]"/>
 			    </div>
 			</div>
         </>
